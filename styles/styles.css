@@ -1,0 +1,57 @@
+/* HEADER */
+.logo-icon {
+  fill: #fff;
+}
+.header {
+  padding: 3rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav {
+  display: flex;
+}
+.main-nav-list {
+  list-style: none;
+  font-size: 1.4rem;
+
+  display: flex;
+  gap: 4rem;
+  align-self: center;
+}
+.main-nav-link {
+  transition: all 0.4s;
+  padding: 1rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  color: #fff;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  cursor: pointer;
+  color: #e64980;
+  /* border-bottom: solid 0.1rem #e64980; */
+}
+
+/* SECTION HERO */
+.section-hero {
+  height: 100vh;
+}
+.hero {
+  padding: 10rem;
+}
+
+/* SECTION ABOUT */
+.about-img {
+  max-width: 100%;
+  border-radius: 1.1rem;
+}
+.about-text-box {
+  padding: 3rem;
+}
+.about-description {
+  font-size: 1.8rem;
+  line-height: 2;
+}
