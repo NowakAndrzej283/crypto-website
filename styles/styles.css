@@ -55,3 +55,57 @@
   font-size: 1.8rem;
   line-height: 2;
 }
+
+/* SECTION PRICING */
+.pricing-box {
+  padding: 4rem;
+  background-color: #ad637d;
+  border-radius: 1.1rem;
+  box-shadow: 0 0.3rem 0.4rem #000000;
+}
+.pricing-plan-pro {
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan-pro::after {
+  content: "Best offer";
+
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+
+  position: absolute;
+  top: 6%;
+  right: -14%;
+  background-color: #fcc419;
+  padding: 1.2rem 5rem;
+  transform: rotate(45deg);
+  transform: translate();
+}
+.pricing-title {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.pricing-option {
+  font-size: 1.4rem;
+}
+.pricing-list {
+  list-style: none;
+  margin-top: 4rem;
+  font-size: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.price-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-icon {
+  fill: #69db7c;
+}

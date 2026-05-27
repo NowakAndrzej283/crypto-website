@@ -36,7 +36,7 @@ Large: 1.8
 
 
 --- 05 SHADOWS
-
+ box-shadow: 0 0.4rem 0.4rem #e64980;
 
 --- 06 BORDER-RADIUS
 
@@ -136,6 +136,13 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+.heading-small {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.2rem;
+  margin-bottom: 2rem;
+}
 
 /* BUTTONS */
 .btn:link,
@@ -173,4 +180,14 @@ body {
 /* MARGINS */
 .margin--sides-b {
   margin: 0 20rem;
+}
+.margin--top-md {
+  margin-top: 4rem;
+}
+.margin--top-b {
+  margin-top: 8rem;
+}
+
+.justify-center {
+  justify-content: center;
 }
