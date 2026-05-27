@@ -1,4 +1,8 @@
 /* HEADER */
+.logo:hover {
+  transform: rotate(30deg);
+}
+
 .logo-icon {
   fill: #fff;
 }
@@ -25,6 +29,7 @@
 }
 .main-nav-link:link,
 .main-nav-link:visited {
+  text-decoration: none;
   display: inline-block;
   color: #fff;
 }
@@ -32,18 +37,25 @@
 .main-nav-link:active {
   cursor: pointer;
   color: #e64980;
-  /* border-bottom: solid 0.1rem #e64980; */
 }
 
 /* SECTION HERO */
 .section-hero {
   height: 100vh;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  transform: translate(0, -10%);
 }
 .hero {
-  padding: 10rem;
+  padding: 4rem;
 }
 
 /* SECTION ABOUT */
+.about-img-box {
+  display: flex;
+  align-items: center;
+}
 .about-img {
   max-width: 100%;
   border-radius: 1.1rem;
@@ -59,7 +71,7 @@
 /* SECTION PRICING */
 .pricing-box {
   padding: 4rem;
-  background-color: #ad637d;
+  background-color: #aa5d78;
   border-radius: 1.1rem;
   box-shadow: 0 0.3rem 0.4rem #000000;
 }
@@ -91,6 +103,7 @@
 }
 .pricing-option {
   font-size: 1.4rem;
+  font-weight: 800;
 }
 .pricing-list {
   list-style: none;
@@ -113,8 +126,10 @@
 /* CTA SECTION */
 .cta-img {
   width: 100%;
+  border-radius: 0.9rem;
 }
 .cta-img-box {
+  display: flex;
   align-items: center;
 }
 .cta-text {
@@ -168,4 +183,7 @@
 }
 .footer-copyright {
   font-size: 1rem;
+}
+.footer .logo {
+  transform: none;
 }

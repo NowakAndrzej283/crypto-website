@@ -38,10 +38,9 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li class="main-nav-link">Pricing</li>
-          <li class="main-nav-link">About us</li>
-          <li class="main-nav-link">Why us</li>
-          <li class="main-nav-link">Sign up</li>
+          <li><a class="main-nav-link" href="#about-us">About us</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link" href="#sign-up">Sign up</a></li>
         </ul>
       </nav>
     </header>
@@ -64,7 +63,7 @@
       </section>
 
       <!-- ABOUT US SECTION -->
-      <section class="container section-about">
+      <section class="container section-about" id="about-us">
         <p class="heading-small">About us</p>
         <div class="about grid grid--2-cols">
           <div class="about-img-box">
@@ -88,7 +87,7 @@
       </section>
 
       <!-- SECTION PRICING -->
-      <section class="container section-pricing">
+      <section class="container section-pricing" id="pricing">
         <p class="heading-small">pricing</p>
         <p class="heading-secondary">Simple Pricing for Everyone</p>
         <div class="pricing grid grid--3-cols">
@@ -308,7 +307,7 @@
       </section>
 
       <!-- CTA SECTION -->
-      <section class="cta-section container">
+      <section class="cta-section container margin--bottom-b" id="sign-up">
         <p class="heading-small">sign up</p>
         <p class="heading-secondary">Start Crypto Today</p>
         <div class="grid grid--2-cols">
@@ -353,7 +352,7 @@
               <button href="#" class="btn btn--form">Sign up</button>
               <div class="newsletter-terms">
                 <input
-                  type="radio"
+                  type="checkbox"
                   id="newsletter"
                   name="newsletter"
                   value=""

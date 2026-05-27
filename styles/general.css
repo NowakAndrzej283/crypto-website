@@ -10,20 +10,9 @@ Medium: 500
 Semi-bold: 600
 Bold: 700
 
-- Line heights
-Default: 1
-Small: 1.05
-Medium: 1.2
-Paragraph default: 1.6
-Large: 1.8
-
-- Letter spacing
--0.5px
-0.75px
-
 --- 02 COLORS
 
-- Primary: #c2255c
+- Primary: #c2255c #AA5D78
 - Tints:#e64980 #f06595 #f783ac #fcc2d7 #fff0f6
 
 - Shades: 
@@ -32,8 +21,6 @@ Large: 1.8
 - Accents:
 - Greys
 #343a40 #868e96 #ced4da
-
-
 
 --- 05 SHADOWS
  box-shadow: 0 0.4rem 0.4rem #e64980;
@@ -57,6 +44,8 @@ Medium: 11px
 html {
   font-size: 62.5%;
   background-color: #2c2c2cf3;
+
+  scroll-behavior: smooth;
 }
 body {
   font-family: "JetBrains Mono", sans-serif;
@@ -85,7 +74,7 @@ body {
     margin-bottom: 0;
   } */
 
-.grid:not(:last-child) {
+.grid:not(last-child) {
   margin-bottom: 9.6rem;
 }
 
@@ -121,8 +110,13 @@ body {
 .heading-primary {
   font-size: 4.4rem;
   line-height: 1.05;
-  margin-bottom: 3.2rem;
+  margin-bottom: 5rem;
   text-align: center;
+  transition: all 2s;
+}
+.heading-primary:hover{
+  color: #e64980;
+  cursor:default;
 }
 
 .heading-secondary {
@@ -132,9 +126,9 @@ body {
 }
 .subheading {
   font-size: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   text-align: center;
-  line-height: 1.5;
+  line-height: 2;
 }
 .heading-small {
   font-size: 2rem;
@@ -198,6 +192,9 @@ body {
 }
 .margin--top-b {
   margin-top: 8rem;
+}
+.margin--bottom-b {
+  margin-bottom: 12rem;
 }
 
 .justify-center {
