@@ -171,6 +171,18 @@ body {
   background-color: #fff;
 }
 
+.btn--form {
+  font-size: inherit;
+  font-weight: 700;
+  background-color: #d0ebff;
+  color: #333;
+  align-self: end;
+  padding: 1.2rem;
+  margin: 2rem;
+  border-radius: 0.9rem;
+  border: none;
+}
+
 .btns {
   display: flex;
   justify-content: center;

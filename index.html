@@ -49,8 +49,8 @@
     <!-- MAIN -->
     <main>
       <!-- HERO SECTION -->
-      <section class="section-hero">
-        <div class="container hero margin--sides-b">
+      <section class="section-hero container">
+        <div class="hero margin--sides-b">
           <h1 class="heading-primary">Track Crypto Markets in Real Time</h1>
           <p class="subheading">
             Monitor prices, manage your portfolio, and stay ahead of the market
@@ -306,6 +306,136 @@
           </div>
         </div>
       </section>
+
+      <!-- CTA SECTION -->
+      <section class="cta-section container">
+        <p class="heading-small">sign up</p>
+        <p class="heading-secondary">Start Crypto Today</p>
+        <div class="grid grid--2-cols">
+          <div class="cta-img-box">
+            <img
+              src="./img/pricing-2.jpg"
+              alt="one bitcoin and one ether coin"
+              class="cta-img"
+            />
+          </div>
+          <div class="cta-text-box">
+            <p class="cta-text">Join thousands of investors today</p>
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name">Enter Name</label>
+                <input
+                  type="text"
+                  id="full-name"
+                  placeholder="John doe"
+                  class="cta-input"
+                />
+              </div>
+              <div>
+                <label for="email">Enter Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="example@mail.com"
+                  class="cta-input"
+                />
+              </div>
+              <div>
+                <label for="tel">Enter Phone</label>
+                <input
+                  type="tel"
+                  id="tel"
+                  placeholder="123-456-789"
+                  class="cta-input"
+                  required
+                />
+              </div>
+              <button href="#" class="btn btn--form">Sign up</button>
+              <div class="newsletter-terms">
+                <input
+                  type="radio"
+                  id="newsletter"
+                  name="newsletter"
+                  value=""
+                />
+                <label for="newsletter"
+                  >I want to get weekly market insights, crypto trends, and
+                  platform updates directly to my inbox.</label
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-nav container">
+        <a href="#" class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="#000000"
+            class="logo-icon"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M223.68,66.15,135.68,18h0a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32h0l80.34,44L128,120,47.66,76ZM40,90l80,43.78v85.79L40,175.82Zm96,129.57V133.82L216,90v85.78Z"
+            ></path>
+          </svg>
+        </a>
+        <div class="footer-social">
+          <div class="footer-icons">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="footer-icon"
+              >
+                <path
+                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="footer-icon"
+              >
+                <path
+                  d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="footer-icon"
+              >
+                <path
+                  d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          <p class="footer-copyright">
+            &copy; <span class="year">2026</span> Designed by
+            <strong>Andrzej Nowak</strong>. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
