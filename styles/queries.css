@@ -33,14 +33,14 @@
         max-width: 80%;
     }
     .pricing-box{
-        max-width: 80%;
+        width: 80%;
         justify-self: center;
     }
     .pricing-box-last{
         grid-column: 1 / -1;
         align-self: center;
         justify-self: center;
-        max-width: 80%;
+        max-width: 40%;
     }
     .pricing-plan-pro::after{
         top: 6%;
@@ -59,8 +59,101 @@
         font-size: 1.8rem;
     }
     .newsletter-terms{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+        /* background-color: yellow; */
+        display: flex !important;
+        font-size: 1.4rem;
+        flex-direction: row !important;
+        gap: 2rem !important;
     }
+    .newsletter-terms input{
+        display: block;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .input-checkbox{
+        display: inline-block;
+    }
+}
+/* BELOW 752px (Tablets)*/
+@media(max-width: 47em){
+    /* 8 / 16 */
+    html{
+        font-size: 50%;
+    }
+    .grid{
+        column-gap: 2rem;
+        row-gap: 6rem;
+    }
+    .pricing-box{
+        width: 90%;
+        justify-self: center;
+    }
+    .pricing-box-last{
+        grid-column: 1 / -1;
+        align-self: center;
+        justify-self: center;
+        max-width: 45%;
+    }
+    .margin--sides-b{
+        margin: 0 10rem;
+    }
+}
+/* BELOW 592px ( Smaller Tablets) */
+@media(max-width: 37em){
+    .grid--3-cols{
+        grid-template-columns: 1fr;
+    }
+    .heading-secondary{
+        margin-bottom: 6rem;
+        font-size: 3rem;
+    }
+    .margin--sides-b{
+        margin: 0 6rem;
+    }
+    .pricing-box{
+        width: 60%;
+        justify-self: center;
+    }
+    .pricing-box-last{
+        grid-column: 1 / -1;
+        align-self: center;
+        justify-self: center;
+        max-width: 60%;
+    }
+    .pricing-plan-pro::after{
+        top: 6%;
+        right: -13%;
+    }
+    .cta-form{
+        grid-template-columns: 1fr;
+    }
+    .btn--form{
+        margin-top: 4rem;
+    }
+}
+/* BELOW 448px (Large Phones)*/
+@media(max-width: 28em){
+    /* 7 / 16 */
+    html{
+        font-size: 43.75%;
+    }
+    .margin--sides-b{
+        margin: 0 2rem;
+    }
+    .pricing-box{
+        width: 80%;
+        justify-self: center;
+    }
+    .pricing-box-last{
+        grid-column: 1 / -1;
+        align-self: center;
+        justify-self: center;
+        max-width: 80%;
+    }
+}
+
+/* BELOW 320px (Medium Phones) */
+/* TO DO: navbar update */
+@media(max-width: 20em){
+
 }
