@@ -18,7 +18,7 @@
 .main-nav-list {
   list-style: none;
   font-size: 1.4rem;
-
+  
   display: flex;
   gap: 4rem;
   align-self: center;
@@ -38,6 +38,35 @@
   cursor: pointer;
   color: #e64980;
 }
+
+/* MOBILE */
+.btn-mobile-nav{
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  position: relative;
+  z-index: 10000;
+  
+  display: none;
+}
+.btn-icon{
+  fill: #fff;
+  transition: all 0,4s;
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.btn-icon:hover{
+  fill: #e64980;
+}
+.btn-icon[name="close"]{
+  display: none;
+}
+
+
+
+
+
+
 
 /* SECTION HERO */
 .section-hero {
@@ -151,7 +180,7 @@
   font-family: inherit;
   margin-top: 1.2rem;
   border-radius: 0.9rem;
-  padding: 1.2rem;
+  padding: 1.2rem 2rem;
 }
 .newsletter-terms {
   grid-column: 1 /-1;
