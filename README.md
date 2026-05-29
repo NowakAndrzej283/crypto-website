@@ -1,4 +1,5 @@
 #  Crypto Website
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://nowakandrzej283.github.io/crypto-website/#)
 
 A modern and responsive crypto dashboard built with HTML, CSS, and JavaScript.  
 Website focuses on real-time crypto market data with a clean and intuitive interface.
@@ -57,6 +58,12 @@ crypto-website/
 │
 └── README.md
 ```
+
+## 🌐 Live Demo
+[View Webiste](https://nowakandrzej283.github.io/crypto-website/#)
+
+---
+
 ## License
 MIT License
 
